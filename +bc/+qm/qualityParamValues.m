@@ -25,7 +25,7 @@ param = struct; %initialize structure
 param.plotDetails = 0; % generates a lot of plots, 
     % mainly good if you running through the code line by line to check things,
     % to debug, or to get nice plots for a presentation
-param.plotGlobal = 1; % plot summary of quality metrics 
+param.plotGlobal = 0; % plot summary of quality metrics 
 param.verbose = 1; % update user on progress
 param.reextractRaw = 0; % re extract raw waveforms or not 
 
